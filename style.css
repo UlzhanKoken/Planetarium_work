@@ -1,0 +1,43 @@
+body{
+	transition:.5s;
+	background-image: url(black.jpg);
+}
+#moon{
+	margin-top: 15vh;
+	width:25vh;
+	transition: 1s;
+}
+#earth{
+	margin-top: 15vh;
+	width: 200px;
+	transition: 1s;
+}
+.name{
+	font-size:65px;
+	top:20px;
+	left: 20px;
+}
+.inf{
+	font-size:15px;
+	width:200px;
+	top:120px;
+	left:20px;
+}
+.name, .inf{
+	color: antiquewhite;
+	position: absolute;
+}
+.about-moon, .about-earth, .about-mars, .about-mercury{
+	display: none;
+}
+#mars{
+	width:200px;
+	transition: 1s;
+	margin-top: 15vh;
+}
+#mercury{
+	width:200px;
+	transition: 1s;
+	margin-top: 15vh;
+}
+
